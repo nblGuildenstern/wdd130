@@ -37,6 +37,15 @@ main section {
 .icon {
     width: 80px;
 }
+footer a {
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
 #background {
     height: 725px;
     background-color: #FFF15B;
