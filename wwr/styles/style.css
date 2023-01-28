@@ -1,6 +1,8 @@
-body {
+content{
     max-width: 1600px;
     margin: 0 auto;
+}
+body {
     text-align: center;
     background-color: #2d61b6;
 }
