@@ -1,0 +1,50 @@
+body {
+}
+main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: fit-content;
+}
+.cherry {
+    grid-row: 1/4;
+    grid-column: 1;
+    z-index: 5;
+}
+.cherry img {
+    width: 100%;
+}
+.watermelon{
+    grid-row: 1/4;
+    grid-column: 1;
+    z-index: 1;
+}
+.watermelon img {
+    width: 100%;
+}
+.right {
+    background-color: gray;
+    grid-row: 1/4;
+    grid-column: 2;
+}
+.top {
+    grid-row: 1;
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 150px;
+    padding: 50px;  
+    letter-spacing: 40px;
+    line-height: 200px;
+    height: 200px;
+}
+.bottom {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+    color: #9c0e11;
+    font-size: 75px;
+    padding: 0 0 100px 0;
+    width: 100%;
+    letter-spacing: 30px;
+}

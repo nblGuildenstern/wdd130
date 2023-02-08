@@ -3,19 +3,18 @@ body {
     margin: 0;
 }
 .top {
-    width: fit-content;
-    height: fit-content;
     padding: 0;
     margin: 0;
-    
 }
-
+.top img{
+    width: 100%;
+    max-width: 1600px;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #737373;
-    width: fit-content;
-    box-sizing: border-box;
+    width: 100%;
 }
 #desk {
     border: 30px inset black;
