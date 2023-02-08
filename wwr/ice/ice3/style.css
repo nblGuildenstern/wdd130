@@ -22,6 +22,7 @@ main {
 }
 .watermelon img {
     width: 100%;
+    padding-top: 100px;
 }
 .right {
     background-color: gray;
@@ -37,6 +38,7 @@ main {
     letter-spacing: 40px;
     line-height: 200px;
     height: 200px;
+    z-index: 10;
 }
 .bottom {
     grid-row: 3;
