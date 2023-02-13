@@ -1,0 +1,35 @@
+h1 {
+    font-size: 2em;
+    /* background-color: blueviolet; */
+}
+.part1 {
+    margin: 20px 50px 20px 50px;
+}
+.part2 {
+    font-size: 3em;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.sec {
+    height: 425px;
+    background-color: lightgrey;
+    border: 2px;
+    border: solid;
+    border-color: black;
+    border-radius: 50px;
+    color:purple;
+}
+.sec img {
+    float: right;
+    padding: 15px;
+    margin: 50px;
+    width: 350px;
+}
+.sech {
+    margin-left: 10px;
+    color: orange;
+}
+.secp {
+    margin-left: 30px;
+}
