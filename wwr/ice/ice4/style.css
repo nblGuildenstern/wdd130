@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Rubik:wght@300;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.stuff{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    margin: 5% auto;
+    max-width: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin: auto 5px
+}
+.glasses{
+    grid-column: 1/2;
+}
+.glasses img {
+    width: 100%;
+    max-width: 300px;
+}
+.all-words {
+    grid-column: 2/-1;  
+}
+.button {
+    border: none;
+    background: none;
+    float: right;
+    margin: 10px;
+}
+.button:hover {
+    color: orange;
+    background-color: gray;
+}
+.sub{
+    background-color: orange;
+    border: solid orange 5px;
+    text-align: center;
+    width: 25%;
+    color: white;
+    margin: 5px auto;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sub:hover{
+    background-color: black;
+    color: orange;
+}
+.textinput{
+    width: 90%;
+    margin: 5px 10px;
+    height: 50px;
+    font-size: 2em;
+    padding: 5px 0;
+}
+
