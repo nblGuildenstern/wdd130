@@ -1,0 +1,22 @@
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.pic {
+    grid-column: 1/-1;
+    width: 100%;
+}
+.text {
+    grid-column: 1/-1;
+}
+h3 {
+    color: cadetblue;
+}
+h2 {
+    font-weight: bold;
+}
+.info {
+    align-items: center;
+}
