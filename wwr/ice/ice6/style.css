@@ -1,0 +1,43 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto 20em;
+}
+.stuff {
+    display: grid;
+    grid-template-columns: 1f 1f;
+}
+.sign_up {
+    grid-column: 1/2;
+}
+.london {
+    grid-column: 2/3;
+}
+.london img {
+    width: fit-content;
+}
+.top {
+    color: #5a72a7;
+    font-size:  4em;
+}
+.mid {
+    color: gray;
+    line-height: 1px;
+}
+.bot {
+    margin-top: 100px;
+}
+.textinput{
+    width: 50%;
+    height: 25px;
+    font-size: 1em;
+    padding: 5px 20px;
+    background-color: rgb(238, 238, 238);
+    margin: 5px auto;
+    border-radius: 5%;
+}
+button {
+    background-color: #2C578C;
+    color: white;
+    padding: 10px 153px;
+}
+
