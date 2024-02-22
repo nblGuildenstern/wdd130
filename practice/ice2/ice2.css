@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.top {
+    padding: 0;
+    margin: 0;
+}
+.top img{
+    width: 100%;
+    max-width: 1600px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #737373;
+    width: 100%;
+}
+#desk {
+    border: 30px inset black;
+    border-radius: 1000px;
+}
+#icon {
+    border: 30px inset black;
+    border-radius: 1000px;
+}
+#dude {
+    border: 30px inset black;
+    border-radius: 1000px;
+}
+.grid-item {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
