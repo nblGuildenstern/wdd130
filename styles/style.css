@@ -1,0 +1,229 @@
+body {
+    background: #101740;
+}
+
+
+#wrapper {
+    background: #50C7D3;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    line-height: 20px;
+    border: 5px solid #C03E8D;
+    border-radius: 30px;
+}
+
+header img {
+    width: 70px;
+    border-radius: 50%;
+}
+header h1 {
+    display: inline;
+    float: right;
+    color: black;
+    font-size: 3em;
+}
+nav {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #8F6593;
+    color: white;
+    border: 6px solid #C03E8D;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+}
+nav :hover {
+    background-color: #b581b9;
+}
+
+nav a {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+main {
+    margin-bottom: 40px;
+}
+main h1 {
+    text-align: center;
+}
+#symbol-helps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+    text-align: center;
+}
+#symbol-helps img {
+    height: 500px;
+}
+
+#ice-pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 800px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.ice-page {
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #8F6593;
+    border: 2px solid #C03E8D;
+}
+.ice-page:hover {
+    background-color: #b581b9;
+}
+.ice-page a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dev-pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    margin: 0 auto;
+    gap: 20px;
+    line-height: 0;
+}
+.dev-label {
+    height: 64px;
+    margin-top: 10px;
+}
+.dev-label h1 {
+    font-size: 2em;
+}
+.dev-label h6 {
+    font-size: 1.01em;
+}
+.dev-page {
+    margin: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: #8F6593;
+    border: 2px solid #C03E8D;
+}
+.dev-page:hover {
+    background-color: #b581b9;
+}
+.dev-page a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dev-page img {
+    width: 60px;
+    margin-left: 20px;
+}
+#shogi-logo {
+    width: 45px;
+}
+
+footer {
+    align-items: center;
+    background-color: #8F6593;
+    border-radius: 20px;
+    border: 6px solid #C03E8D;
+    color: white;
+}
+footer ul {
+    width: 500px;
+}
+#content {
+    display: flex;
+}
+footer li {
+    display: inline;
+    margin: 20px;
+}
+footer a {
+    color: white;
+}
+#copyright {
+    display: inline;
+    width: 120px;
+    text-align: end;
+}
+footer form {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 3px dotted blue;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    text-align: center;
+}
+footer form input {
+    margin: 10px;
+}
+#send-btn {
+    background-color: #8F6593;
+    width: 100px;
+    height: 25px;
+    border: 2px solid #C03E8D;
+}
+
+
+
+table.classTable {
+  border: 1px solid #C03E8D;
+  background-color: #50C7D3;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.classTable td, table.classTable th {
+  border: 5px solid #C03E8D;
+  padding: 3px 2px;
+}
+table.classTable tbody td {
+  font-size: 13px;
+}
+table.classTable tr:nth-child(even) {
+  background: #B581B9;
+}
+table.classTable thead {
+  background: #8F6593;
+  background: -moz-linear-gradient(top, #ab8bae 0%, #9a749d 66%, #8F6593 100%);
+  background: -webkit-linear-gradient(top, #ab8bae 0%, #9a749d 66%, #8F6593 100%);
+  background: linear-gradient(to bottom, #ab8bae 0%, #9a749d 66%, #8F6593 100%);
+}
+table.classTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.classTable tfoot td {
+  font-size: 14px;
+}
+table.classTable tfoot .links {
+  text-align: right;
+}
+table.classTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}

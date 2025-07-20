@@ -1,0 +1,12 @@
+#about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main img {
+    width: 400px;
+    margin-top: 20px;
+}
+main p {
+    font-size: 2em;
+    line-height: 35px;
+}
